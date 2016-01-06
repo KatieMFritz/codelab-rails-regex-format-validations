@@ -56,3 +56,5 @@ group :production do
   # Make Rails work better with Heroku
   gem 'rails_12factor'
 end
+
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
